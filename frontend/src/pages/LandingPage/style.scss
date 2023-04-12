@@ -1,0 +1,134 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page {
+  .headline {
+    justify-content: flex-end;
+    position: relative;
+
+
+    div.headline-box {
+      padding: 10px;
+      position: absolute;
+      top: 40vh;
+      right: 100px;
+      width: 30%;
+      height: 40%;
+
+      background-color: rgba($color: #ffffff, $alpha: 0.4);
+      border: 5px double rgba($color: gold, $alpha: 0.5);
+      box-shadow: 2px 2px 2px black;
+
+      &:hover {
+        background-color: rgba($color: #ffffff, $alpha: 0.8);
+        border: 5px double rgba($color: gold, $alpha: 1);
+      }
+
+      span {
+        display: block;
+
+        &.movie-title {
+          font-family: "Gidugu", sans-serif;
+          font-size: 5rem;
+          text-align: center;
+          color: red;
+          text-shadow: 2px 2px 5px white, 6px 6px 5px black;
+
+        }
+
+        &.movie-headline {
+          font-family: "Glory", sans-serif;
+          font-size: 2.3rem;
+          text-align: justify;
+          line-height: 40px;
+          font-weight: bold;
+          color: orange;
+          text-shadow: 2px 2px 2px black;
+        }
+      }
+    }
+  }
+
+  .page-top {
+    flex-direction: row;
+
+    img {
+      width: 50%;
+      object-fit: contain;
+    }
+
+
+
+    div.description {
+      padding: 1rem;
+
+      p {
+        column-count: unset !important;
+      }
+
+      h1 {
+        font-family: "Chewy", cursive;
+        font-size: 4rem;
+        font-weight: 100;
+        margin: 1rem 0;
+        color: orange;
+        text-shadow: 2px 2px 0px black, -2px -2px 0px brown;
+      }
+    }
+  }
+
+  .news-cards {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  p {
+    font-family: sans-serif;
+    text-align: justify;
+    column-count: 2;
+    column-gap: 5rem;
+  }
+
+  h2 {
+    font-family: "Glory", sans-serif;
+    font-size: 2rem;
+  }
+
+  main {
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  footer {
+    width: 90%;
+    background-color: darkslategrey;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5rem;
+
+    a {
+      margin-top: 5px;
+      text-decoration-color: wheat;
+      text-align: center;
+
+      img {
+        height: 20px;
+        margin-right: 5px;
+        margin: 0 auto;
+      }
+    }
+
+    span {
+      display: block;
+      color: white;
+      font-family: monospace;
+      text-align: center;
+    }
+  }
+}

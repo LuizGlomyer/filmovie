@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/cabin": "^4.5.10",
+    "@fontsource/chewy": "^4.5.7",
+    "@fontsource/gidugu": "^4.5.8",
+    "@fontsource/glory": "^4.5.12"
+  }
+}
