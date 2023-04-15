@@ -22,7 +22,7 @@ class View(MethodView):
     def post(self, item_data):
         row = News(**item_data)
         print(item_data, flush=True)
-        print(row, flush=True)
+        
         db.session.add(row)
         db.session.commit()
         db.session.refresh(row)

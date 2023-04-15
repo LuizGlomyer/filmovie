@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 from flask import Flask
 from flask_smorest import Api
-from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 from blueprints.movies import blp as AccessBlueprint
 from blueprints.news import blp as ActionsBlueprint
@@ -27,11 +24,8 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 db.init_app(app)
-
 api = Api(app)
-
-
-
+CORS(app)
 
 api.register_blueprint(AccessBlueprint)
 api.register_blueprint(ActionsBlueprint)
