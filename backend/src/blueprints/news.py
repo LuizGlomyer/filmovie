@@ -11,7 +11,7 @@ news_schema = NewsSchema()
 class View(MethodView):
     @blp.response(200, NewsSchema(many=True))
     def get(self):
-        news = News.query.all()        
+        news = News.query.order_by(News.id.desc()).all()
         result = []
         for new in news:
             result.append(news_schema.dump(new))

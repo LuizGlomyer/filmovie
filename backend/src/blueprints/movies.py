@@ -11,7 +11,7 @@ movies_schema = MoviesSchema()
 class View(MethodView):
     @blp.response(200, MoviesSchema(many=True))
     def get(self):
-        news = Movies.query.all()        
+        news = Movies.query.order_by(Movies.title).all()        
         result = []
         for new in news:
             result.append(movies_schema.dump(new))
