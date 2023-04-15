@@ -1,0 +1,5 @@
+Flask==2.2.2
+flask-smorest==0.40.0
+python-dotenv==0.21.0
+SQLAlchemy==2.0.9
+Flask-SQLAlchemy==3.0.3
