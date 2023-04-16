@@ -11,6 +11,9 @@ Here are some technologies that I used:
 - PostgreSQL, as the RDBMS
 - SQLAlchemy, to act as an ORM
 
+Some prints of the system can be seen here:
+> https://docs.google.com/presentation/d/1LscAzJtA32IW7pYDm5zu44yX-TuIiQOvfVGkfKIm2-M/edit?usp=sharing
+
 ## Instructions for running the front-end
 
 ```sh
