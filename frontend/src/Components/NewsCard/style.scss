@@ -1,5 +1,6 @@
 .p-card {
   width: 350px;
+  height: 500px;
   border-radius: 10px;
   &:hover{
     background-color: rgb(255, 230, 249);
@@ -10,4 +11,19 @@
     height: 200px;
     object-fit: cover;
   }
+  p{
+    columns: unset;
+    overflow: hidden;
+    height: 110px;
+    text-overflow: clip;
+  }
+  
+}
+
+.news-cards {
+  margin-bottom: 30px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }

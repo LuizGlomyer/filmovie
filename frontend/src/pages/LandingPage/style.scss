@@ -12,10 +12,10 @@
     div.headline-box {
       padding: 10px;
       position: absolute;
-      top: 40vh;
+      top: 50vh;
       right: 100px;
       width: 30%;
-      height: 40%;
+      height: 32%;
 
       background-color: rgba($color: #ffffff, $alpha: 0.4);
       border: 5px double rgba($color: gold, $alpha: 0.5);
@@ -34,8 +34,9 @@
           font-size: 5rem;
           text-align: center;
           color: red;
-          text-shadow: 2px 2px 5px white, 6px 6px 5px black;
-
+          text-shadow: 2px 2px 3px black, 3px 3px 2px white;
+          line-height: 6rem;
+          background-color: rgba(0, 0, 0, 0.301);
         }
 
         &.movie-headline {
@@ -79,13 +80,6 @@
     }
   }
 
-  .news-cards {
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 30px;
-  }
-
   p {
     font-family: sans-serif;
     text-align: justify;
@@ -101,12 +95,14 @@
   main {
     background-color: whitesmoke;
     width: 90%;
+    min-height: 90vh;
     margin: 0 auto;
     padding: 1rem;
   }
 
   footer {
     width: 90%;
+    height: 10vh;
     background-color: darkslategrey;
     margin: 0 auto;
     align-items: center;

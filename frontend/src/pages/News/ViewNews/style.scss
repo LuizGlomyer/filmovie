@@ -1,0 +1,38 @@
+.view-news-page {
+
+
+  h1 {
+    font-family: "Glory", sans-serif;
+    color: purple;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    color: grey;
+    margin-bottom: 0;
+  }
+
+  span.news-details {
+    font-family: sans-serif;
+  }
+
+  p {
+    margin-top: 3rem;
+    padding: 0 3rem;
+    column-gap: 20px;
+  }
+
+  img.headline {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  div.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

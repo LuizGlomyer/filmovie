@@ -1,13 +1,43 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+
 import './index.css';
 import App from './App';
+import NewsList from './pages/News/NewsList';
+import ViewNews from './pages/News/ViewNews';
+import MovieList from './pages/Movies/MovieList';
+import ViewMovie from './pages/Movies/ViewMovie';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "news/",
+    element: <NewsList />,
+  },
+  {
+    path: "news/:newsId",
+    element: <ViewNews />,
+  },
+  {
+    path: "movies/",
+    element: <MovieList />,
+  },
+  {
+    path: "movies/:moviesId",
+    element: <ViewMovie />,
+  },
+]);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

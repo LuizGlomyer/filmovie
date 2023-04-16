@@ -1,0 +1,42 @@
+.view-movies-page {
+
+  p {
+    columns: unset;
+  }
+
+  h1 {
+    font-family: "Glory", sans-serif;
+    color: purple;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    color: grey;
+    margin: 0;
+  }
+
+  img.headline {
+    width: 98.9vw;
+    height: 60vh;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  div.description {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  div.content {
+    padding: 0 5rem;
+    align-items: center;
+
+    p {
+      margin: 3rem 0;
+      font-size: 1.5rem;
+    }
+  }
+}
