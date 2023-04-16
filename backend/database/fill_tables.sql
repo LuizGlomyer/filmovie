@@ -161,97 +161,6 @@ O filme já está sendo produzido e tem previsão de estreia para o final do ano
 		'Bane Pavel',
 		'2023-05-18 15:30:00'
 	);
--- Insert into movie table
-INSERT INTO movies (
-		title,
-		genre,
-		synopsis,
-		director,
-		movie_cover_uri,
-		background_image_uri,
-		trailer_uri
-	)
-VALUES (
-		'Interestelar',
-		'Aventura',
-		'As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.',
-		'Christopher Nolan',
-		'https://imusic.b-cdn.net/images/item/original/740/5051895390740.jpg?christopher-nolan-2015-interstellar-dvd&class=scaled',
-		'https://rare-gallery.com/uploads/posts/979135-Interstellar-movie-movies-astronaut-sea.jpg',
-		'https://www.youtube.com/watch?v=mbbPSq63yuM'
-	);
-INSERT INTO movies (
-		title,
-		genre,
-		synopsis,
-		director,
-		movie_cover_uri,
-		background_image_uri,
-		trailer_uri
-	)
-VALUES (
-		'Tetris',
-		'Drama',
-		'Antes de Tetris se tornar um dos jogos de computador mais famosos do mundo, ele passou por uma jornada extraordinária: quando o desenvolvedor de jogos de computador nascido na Holanda, Henk Rogers (Taron Egerton), descobriu o jogo do programador russo Alexey Pajitno (Nikita Efrenov) no final da década de 1980, a Cortina de Ferro da URSS está prestes a cair. Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers adquire a licença do Tetris e se envolve em um turbilhão de mentiras e corrupção, de modo que precisa negociar até com o serviço secreto russo KGB. Enquanto várias partes fazem reivindicações legais sobre o jogo, Rogers logo se vê envolvido em uma enorme batalha legal...',
-		'Jon S. Baird',
-		'https://m.media-amazon.com/images/M/MV5BZTg3ZWY5MDctNjAxNy00MzZhLWJiZTEtNzI3MzJjNzdiNTkyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
-		'https://www.pockettactics.com/wp-content/sites/pockettactics/2023/02/apple-tv-tetris-1.jpg',
-		'https://www.youtube.com/watch?v=cZ9j8KlB96M'
-	);
-INSERT INTO movies (
-		title,
-		genre,
-		synopsis,
-		director,
-		movie_cover_uri,
-		background_image_uri,
-		trailer_uri
-	)
-VALUES (
-		'Vingadores: Ultimato',
-		'Ação',
-		'Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.',
-		'Anthony Russo',
-		'https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg',
-		'https://i.pinimg.com/originals/03/0d/0e/030d0ec3627906ec28d22484a7487f71.jpg',
-		'https://www.youtube.com/watch?v=4QRdB4RAQMs'
-	);
-INSERT INTO movies (
-		title,
-		genre,
-		synopsis,
-		director,
-		movie_cover_uri,
-		background_image_uri,
-		trailer_uri
-	)
-VALUES (
-		'Blade Runner 2049',
-		'Ação',
-		'Em Blade Runner 2049, após os problemas enfrentados com os Nexus 8, uma nova espécie de replicantes é desenvolvida, de forma que seja mais obediente aos humanos. Um deles é K (Ryan Gosling), um blade runner que caça replicantes foragidos para a polícia de Los Angeles. Após encontrar Sapper Morton (Dave Bautista), K descobre um fascinante segredo: a replicante Rachel (Sean Young) teve um filho, mantido em sigilo até então. A possibilidade de que replicantes se reproduzam pode desencadear uma guerra deles com os humanos, o que faz com que a tenente Joshi (Robin Wright), chefe de K, o envie para encontrar e eliminar a criança.',
-		'Denis Villeneuve',
-		'https://images-na.ssl-images-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg',
-		'https://images8.alphacoders.com/847/847048.jpg',
-		'https://www.youtube.com/watch?v=xGwe7D0RKWc'
-	);
-INSERT INTO movies (
-		title,
-		genre,
-		synopsis,
-		director,
-		movie_cover_uri,
-		background_image_uri,
-		trailer_uri
-	)
-VALUES (
-		'Coringa (2019)',
-		'Drama',
-		'Em Coringa, Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata. Os assassinatos iniciam um movimento popular contra a elite de Gotham City, da qual Thomas Wayne (Brett Cullen) é seu maior representante.',
-		'Todd Phillips',
-		'https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
-		'https://i.insider.com/5d94551490f802027f119855?width=1200&format=jpeg',
-		'https://www.youtube.com/watch?v=zAGVQLHvwOY'
-	);
 INSERT INTO news (
 		title,
 		subtitle,
@@ -319,4 +228,97 @@ Com críticas positivas e uma bilheteria bem-sucedida, parece que "Super Mario B
 		'https://www.nbc.com/sites/nbcblog/files/styles/blog-post-embedded--tablet/public/2023/03/super-mario-movie-characters-luigi2.jpg',
 		'Super Mario Fan',
 		'2023-02-08 10:00:00'
+	);
+
+	
+-- Insert into movie table
+INSERT INTO movies (
+		title,
+		genre,
+		synopsis,
+		director,
+		movie_cover_uri,
+		background_image_uri,
+		trailer_uri
+	)
+VALUES (
+		'Interestelar',
+		'Aventura',
+		'As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.',
+		'Christopher Nolan',
+		'https://imusic.b-cdn.net/images/item/original/740/5051895390740.jpg?christopher-nolan-2015-interstellar-dvd&class=scaled',
+		'https://rare-gallery.com/uploads/posts/979135-Interstellar-movie-movies-astronaut-sea.jpg',
+		'https://www.youtube.com/embed/mbbPSq63yuM'
+	);
+INSERT INTO movies (
+		title,
+		genre,
+		synopsis,
+		director,
+		movie_cover_uri,
+		background_image_uri,
+		trailer_uri
+	)
+VALUES (
+		'Tetris',
+		'Drama',
+		'Antes de Tetris se tornar um dos jogos de computador mais famosos do mundo, ele passou por uma jornada extraordinária: quando o desenvolvedor de jogos de computador nascido na Holanda, Henk Rogers (Taron Egerton), descobriu o jogo do programador russo Alexey Pajitno (Nikita Efrenov) no final da década de 1980, a Cortina de Ferro da URSS está prestes a cair. Com o objetivo de comercializá-lo mundialmente em consoles de videogame, Rogers adquire a licença do Tetris e se envolve em um turbilhão de mentiras e corrupção, de modo que precisa negociar até com o serviço secreto russo KGB. Enquanto várias partes fazem reivindicações legais sobre o jogo, Rogers logo se vê envolvido em uma enorme batalha legal...',
+		'Jon S. Baird',
+		'https://m.media-amazon.com/images/M/MV5BZTg3ZWY5MDctNjAxNy00MzZhLWJiZTEtNzI3MzJjNzdiNTkyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg',
+		'https://www.pockettactics.com/wp-content/sites/pockettactics/2023/02/apple-tv-tetris-1.jpg',
+		'https://www.youtube.com/embed/cZ9j8KlB96M'
+	);
+INSERT INTO movies (
+		title,
+		genre,
+		synopsis,
+		director,
+		movie_cover_uri,
+		background_image_uri,
+		trailer_uri
+	)
+VALUES (
+		'Vingadores: Ultimato',
+		'Ação',
+		'Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.',
+		'Anthony Russo',
+		'https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg',
+		'https://i.pinimg.com/originals/03/0d/0e/030d0ec3627906ec28d22484a7487f71.jpg',
+		'https://www.youtube.com/embed/4QRdB4RAQMs'
+	);
+INSERT INTO movies (
+		title,
+		genre,
+		synopsis,
+		director,
+		movie_cover_uri,
+		background_image_uri,
+		trailer_uri
+	)
+VALUES (
+		'Blade Runner 2049',
+		'Ação',
+		'Em Blade Runner 2049, após os problemas enfrentados com os Nexus 8, uma nova espécie de replicantes é desenvolvida, de forma que seja mais obediente aos humanos. Um deles é K (Ryan Gosling), um blade runner que caça replicantes foragidos para a polícia de Los Angeles. Após encontrar Sapper Morton (Dave Bautista), K descobre um fascinante segredo: a replicante Rachel (Sean Young) teve um filho, mantido em sigilo até então. A possibilidade de que replicantes se reproduzam pode desencadear uma guerra deles com os humanos, o que faz com que a tenente Joshi (Robin Wright), chefe de K, o envie para encontrar e eliminar a criança.',
+		'Denis Villeneuve',
+		'https://images-na.ssl-images-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg',
+		'https://images8.alphacoders.com/847/847048.jpg',
+		'https://www.youtube.com/embed/xGwe7D0RKWc'
+	);
+INSERT INTO movies (
+		title,
+		genre,
+		synopsis,
+		director,
+		movie_cover_uri,
+		background_image_uri,
+		trailer_uri
+	)
+VALUES (
+		'Coringa (2019)',
+		'Drama',
+		'Em Coringa, Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata. Os assassinatos iniciam um movimento popular contra a elite de Gotham City, da qual Thomas Wayne (Brett Cullen) é seu maior representante.',
+		'Todd Phillips',
+		'https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+		'https://i.insider.com/5d94551490f802027f119855?width=1200&format=jpeg',
+		'https://www.youtube.com/embed/zAGVQLHvwOY'
 	);
