@@ -8,6 +8,8 @@ import NewsList from './pages/News/NewsList';
 import ViewNews from './pages/News/ViewNews';
 import MovieList from './pages/Movies/MovieList';
 import ViewMovie from './pages/Movies/ViewMovie';
+import CreateMovie from './pages/Movies/CreateMovies';
+import CreateNews from './pages/News/CreateNews';
 
 
 const router = createBrowserRouter([
@@ -24,12 +26,20 @@ const router = createBrowserRouter([
     element: <ViewNews />,
   },
   {
+    path: "news/create",
+    element: <CreateNews />,
+  },
+  {
     path: "movies/",
     element: <MovieList />,
   },
   {
     path: "movies/:moviesId",
     element: <ViewMovie />,
+  },
+  {
+    path: "movies/create",
+    element: <CreateMovie />,
   },
 ]);
 

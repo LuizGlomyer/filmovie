@@ -1,23 +1,29 @@
 .p-card {
   width: 350px;
-  height: 500px;
+  
   border-radius: 10px;
-  &:hover{
+
+  div.p-card-body{
+    overflow: hidden;
+  }
+
+  &:hover {
     background-color: rgb(255, 230, 249);
     box-shadow: 0px 0px 10px rebeccapurple;
   }
 
-  img{
+  img {
     height: 200px;
     object-fit: cover;
   }
-  p{
+
+  p {
     columns: unset;
     overflow: hidden;
-    height: 110px;
-    text-overflow: clip;
+    height: 115px;
+    text-overflow: ellipsis;
   }
-  
+
 }
 
 .news-cards {

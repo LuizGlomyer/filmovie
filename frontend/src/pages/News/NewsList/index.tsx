@@ -10,6 +10,8 @@ import { MovieHeadline } from '../../../config/interfaces';
 
 import NewsCard from '../../../Components/NewsCard';
 import api from '../../../config/api';
+import { Button } from 'primereact/button';
+import { Link } from 'react-router-dom';
 
 
 function NewsList() {
@@ -77,11 +79,12 @@ function NewsList() {
         <div className='page-top flex'>
           <div className='description'>
             <h1>Filmovie</h1>
+            <Link to={"/news/create"}><Button label='Adicionar filme' /></Link>
           </div>
         </div>
 
         <h1>Últimas notícias</h1>
-       
+
 
         <div className="flex news-cards">
           {

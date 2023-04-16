@@ -1,0 +1,21 @@
+.p-inputtext {
+  margin-top: 5px;
+  display: flex;
+}
+
+.p-inputtextarea {
+  width: 400px;
+}
+
+.button-create {
+  width: 30%;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+div.input {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}

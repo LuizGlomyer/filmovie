@@ -1,4 +1,6 @@
+import { Button } from 'primereact/button';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import MoviePoster from '../../../Components/MoviePoster';
 
 import NewsCard from '../../../Components/NewsCard';
@@ -22,19 +24,18 @@ function MovieList() {
 
   return (
     <div className='landing-page flex'>
-
       <main>
         <div className='page-top flex'>
           <div className='description'>
             <h1>Filmovie</h1>
+            <Link to={"/movies/create"}><Button label='Adicionar filme' /></Link>
           </div>
         </div>
-        
+
         <h1>Lista de filmes</h1>
         <div className="flex news-cards">
           {
             movies.map(newsArticle => {
-              console.log(newsArticle["title"])
               return <MoviePoster
                 id={newsArticle["id"]}
                 title={newsArticle["title"]}

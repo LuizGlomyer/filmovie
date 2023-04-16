@@ -15,7 +15,7 @@ function ViewMovie() {
         <div className='page-top flex'>
           <div className='description'>
             <h1>Filmovie</h1>
-            <Link to={"/news"}><Button label='Voltar'></Button></Link>
+            <Link to={"/movies"}><Button label='Voltar'></Button></Link>
           </div>
         </div>
 
